@@ -1,0 +1,103 @@
+/* genel gövde ayarlari */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* üst kisim */
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+.header a {
+  margin: 0 10px;
+  color: #5f6368;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.profile-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%; /* koseleri yuvarlama */
+  margin-left: 10px;
+}
+
+/* logo */
+.logo {
+  margin-top: 100px;
+  width: 272px;
+}
+
+/* arama kutusu */
+.search-box {
+  width: 480px;
+  margin: 20px auto;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-box .icon {
+  width: 20px;
+  margin: 0 10px;
+}
+
+/* butonlar */
+.buttons {
+  margin-top: 30px;
+}
+
+.buttons button {
+  background-color: #f8f9fa;
+  border: 1px solid #f2f2f2;
+  color: #5f6368;
+  font-size: 14px;
+  height: 36px;
+  padding: 0 16px;
+  margin: 5px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer li {
+  margin: 0 15px;
+}
+
+footer a {
+  color: #5f6368;
+  text-decoration: none;
+  font-size: 14px;
+}
